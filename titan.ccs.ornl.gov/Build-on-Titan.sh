@@ -5,7 +5,11 @@ module load PrgEnv-intel/4.1.40
 module load cray-mpich2/5.6.3
 module load git/1.8.2.1
 
-project=/tmp/proj/lsc005
+# spider / widow
+#project=/tmp/proj/lsc005
+
+# atlas
+project=/lustre/atlas/proj-shared/lsc005
 
 cd $project/software/src/RayPlatform
 git pull origin master
